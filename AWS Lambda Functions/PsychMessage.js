@@ -13,9 +13,9 @@ const playerTable = "PsychPlayersDev";
 const sessionTable = "PsychRoomSessionsDev";
 
 //NOTE: All of the below are mock values
-const APPID = "dappcb7dd168bd834343bc21f8b7120ce759";
+const APP_ID = "dappcb7dd168bd834343bc21f8b7120ce759";
 const APP_SECRET_KEY = "13baa294833e7df54cf714ddd04fcad4b61d2547b54104f826ad4dc15bd9342a"; 
-const DEVELOPER_API_URL = "https://mock/"+APPID+"/leaderboard/save/"; //Mock url
+const DEVELOPER_API_URL = "https://mock/"+APP_ID+"/leaderboard/save/"; //Mock url
 
 var apiGatewayManagementApi;
 let totalQuestions = new Array();
